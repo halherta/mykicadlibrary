@@ -1,0 +1,122 @@
+(footprint "N20CasterSteelBall-Rhomboid"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 21 15.25 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "36c32f5d-e293-4b1d-a54b-e6198921714f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "N20CasterSteelBall-Rhomboid"
+		(at -21 16.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b5adeb34-a2d1-4b5f-96e2-a120b544642f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 21 15.75 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c2cd7753-efa5-4603-94a6-9266895cf308")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 21 15.75 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c556a93d-cd8e-4415-a5d7-cbeae7b9dacf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 21 15.75 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "1b547c3e-28c8-4cea-85f1-4e06ea5ed2e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -25 -12.5)
+		(end 25 12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "4e83b5d9-1016-4894-a083-63f3588c3c4b")
+	)
+	(fp_rect
+		(start -25.5 -13)
+		(end 25.5 13)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "27f3806e-4655-4cea-94be-d45211f3a293")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -21 18.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3431f2df-bbdf-40dc-94a8-4a1a9504ff4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -20 0 270)
+		(size 1.2 1.35)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b387f04b-36d3-4d17-b4cc-d878d58c8268")
+	)
+	(pad "" np_thru_hole oval
+		(at 20 0 270)
+		(size 1.2 1.35)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d6a9ec4e-d500-4263-a9ac-155d98ccd819")
+	)
+)

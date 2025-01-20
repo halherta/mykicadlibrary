@@ -1,0 +1,140 @@
+(footprint "N20CasterSteelBall-Mini"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -11.5 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4b522530-e883-4f04-b2d4-055fd76f53eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "N20CasterSteelBall-Mini"
+		(at -16 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18caa446-f939-454e-9ecf-4e3dd6f007a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3076dd30-be28-40be-8004-95fed63d960e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a9d3111-69d9-4137-b1cf-2d28ca5040e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3114f22c-a5cf-478c-be37-012ef29df918")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -7.5 0)
+		(end -11 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "781a689f-0686-47c9-b6d4-352b29a55e35")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "328a2f3f-ae44-40b7-80e0-fc5b134eaa25")
+	)
+	(fp_circle
+		(center 7.5 0)
+		(end 11 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "abc19740-7b39-4d33-833b-d7c95337b42d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11.2 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1af791ee-24cc-4b54-89c2-6fe2488e361e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -11 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "070fff4a-87ef-49c3-a21d-c7eed37e5c17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -7.5 0 90)
+		(size 1.2 1.35)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e2387f96-bc6f-4da6-9401-c4abfda8c187")
+	)
+	(pad "" np_thru_hole oval
+		(at 7.5 0 90)
+		(size 1.2 1.35)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ebd426d7-d1b6-4ae3-81ce-4c1e330d1664")
+	)
+)
