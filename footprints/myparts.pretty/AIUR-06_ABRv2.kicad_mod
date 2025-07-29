@@ -1,0 +1,119 @@
+(footprint "AIUR-06_ABRv2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "AIUR-06-470K ")
+	(property "Reference" "REF**"
+		(at -3.27 9.31 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d55251c6-c52e-4b3f-87a0-35cdf905064d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AIUR-06_ABRv2"
+		(at 0.5 7.79 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f78d5f9-1efd-4cb7-b740-054d0790364a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8dad8ae-2305-4d25-9b79-d5886957e780")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2efdc233-fa8c-460b-af0e-4a61a730fccb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0 6.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb1792ab-1785-4f99-921e-7934783179aa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.09 6.58)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e31053ff-04df-4dc6-8be2-24c6339b7a46")
+	)
+	(fp_text user "+"
+		(at -8.25 0.53 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "983b88c3-3b32-4038-bfe6-a950f73b0d0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.75 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask" "Eco1.User")
+		(remove_unused_layers no)
+		(uuid "67197b91-e72d-4692-b66b-89a097b3032a")
+	)
+	(pad "2" thru_hole circle
+		(at 3.75 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8c5b451-96cf-474e-9922-a46a5d91ddaf")
+	)
+	(embedded_fonts no)
+	(model "/home/halherta/Documents/KiCadProj/AdditionalLibraries/mylibrary/3dmodels/AIUR-06_ABR.step"
+		(offset
+			(xyz -3.75 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
